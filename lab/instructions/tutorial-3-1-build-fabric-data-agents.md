@@ -42,9 +42,6 @@ In this exercise, you step into Reta's shoes, a data scientist at Zava, to build
 
 11. On the left pane, under the *ZavaLakehouse* dropdown, expand **dbo** and select the following tables as shown in the screenshot.
 
-    - campaigndata__tbl
-    - customerchurdata__tbl
-    - salestransaction__tbl
     - dimcustomer
     - dimdate
     - dimproduct
