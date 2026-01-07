@@ -63,7 +63,7 @@ In this exercise, you step into Reta's shoes, a data scientist at Zava, to build
 
     | Question | SQL Query |
     |----------|-----------|
-    | `How much revenue are we losing from leaving customers vs those who are staying?` | `SELECT StoreContract, Round(SUM(CASE WHEN Churn = 'Yes' THEN CAST(TotalAmount as FLOAT) * 12 ELSE 0 END), 2) AS ProjectedLostRevenue, Round(SUM(CASE WHEN Churn = 'No'  THEN CAST(TotalAmount as FLOAT) * 12 ELSE 0 END),2) AS ProjectedRetainedRevenue FROM customerchurdata__tbl GROUP BY StoreContract ORDER BY StoreContract;` |
+    | `How much revenue are we losing from leaving customers vs those who are staying?` | `SELECT StoreContract, Round(SUM(CASE WHEN Churn = 'Yes' THEN CAST(TotalAmount as FLOAT) * 12 ELSE 0 END), 2) AS ProjectedLostRevenue, Round(SUM(CASE WHEN Churn = 'No'  THEN CAST(TotalAmount as FLOAT) * 12 ELSE 0 END),2) AS ProjectedRetainedRevenue FROM customerchurndata GROUP BY StoreContract ORDER BY StoreContract;` |
 
     ![Screenshot showing how to add example queries for the Data Agent in Microsoft Fabric.](media/add-example-query.png)
 
