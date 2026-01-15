@@ -1,4 +1,4 @@
-These instructions are for participants of the **instructor-led** Workshop **Modernize your data estate by using MS Fabric, Azure Databricks, and AI Foundry** at Microsoft AI Tour 2026.  Register to attend in a city near you at [Microsoft AI Tour](https://aitour.microsoft.com/).
+These instructions are for participants of the **instructor-led** Workshop **Modernize your data estate by using Microsoft Fabric, Azure Databricks, and Microsoft Foundry** at Microsoft AI Tour 2026.  Register to attend in a city near you at [Microsoft AI Tour](https://aitour.microsoft.com/).
 
 ## Get Started
 
@@ -45,7 +45,7 @@ To address these, Kayo tasks CTO Carlos and his team, Bryan (data engineer), Ret
 - OneLake for unified data storage
 - ADLS Gen2 shortcuts for efficient data referencing
 - Power BI for data visualization and reporting
-- Data Agents and AI Foundry agents for conversational insights
+- Data Agents and Foundry agents for conversational insights
 
 You’ll walk in this team's shoes to execute key steps and help reverse Zava’s KPI trends. The exercises are designed to be completed in order because they build on the data and resources created in the previous exercises, so make sure you complete each exercise before moving on to the next one.
 
@@ -85,7 +85,7 @@ Select **Next >** to go to the first exercise.
 
 ## Discussions
 
-Build your first agent with Azure AI Agent Service is an open source project supported by Microsoft. See the [SUPPORT.md](../SUPPORT.md) file for details on how to raise issues or contribute. If you enjoyed this workshop please give the repository a ⭐ and share it with others.
+Build your first agent with Foundry Agent Service is an open source project supported by Microsoft. See the [SUPPORT.md](../SUPPORT.md) file for details on how to raise issues or contribute. If you enjoyed this workshop please give the repository a ⭐ and share it with others.
 
 ## Source code
 

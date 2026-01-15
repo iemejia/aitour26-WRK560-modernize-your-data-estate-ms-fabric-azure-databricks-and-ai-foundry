@@ -54,7 +54,7 @@ Now, this is something exciting! This section shows how easy it is to create Sho
 
     ![Screenshot showing filled in connection details for the ADLS Gen2 shortcut.](media/adls-gen2-connection-filled.png)
 
-9. Select the **data** and **litwaredata** checkbox and then click on the **Next** button.
+9. Select the **litwaredata** checkbox and then click on the **Next** button.
 
     ![Screenshot showing the selection of data and litwaredata checkboxes.](media/litwaredata-checkboxes.png)
 
