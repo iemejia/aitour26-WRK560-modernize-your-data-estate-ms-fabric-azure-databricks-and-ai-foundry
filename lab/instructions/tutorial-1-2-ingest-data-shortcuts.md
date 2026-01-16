@@ -58,11 +58,15 @@ Now, this is something exciting! This section shows how easy it is to create Sho
 
     ![Screenshot showing the selection of data and litwaredata checkboxes.](media/litwaredata-checkboxes.png)
 
-10. Click on the **Create** button.
+10. Since the data we’re importing is not in Delta format, Fabric prompts us to transform it. We’ll skip this step for now to manually test other Fabric features. Select **Skip**.
+
+    ![Screenshot showing the creation of the ADLS Gen2 shortcut.](media/create-new-shortcut-transform.png)
+
+11. Click on the **Create** button.
 
     ![Screenshot showing the creation of the ADLS Gen2 shortcut.](media/adls-gen2-creation.png)
 
-11. And there you go! Your shortcut is now ready! Click (do not expand) on the newly created shortcut named **litwaredata**.
+12. And there you go! Your shortcut is now ready! Click (do not expand) on the newly created shortcut named **litwaredata**.
 
     ![Screenshot showing the newly created shortcut named litwaredata.](media/new-shortcut-created.png)
 
