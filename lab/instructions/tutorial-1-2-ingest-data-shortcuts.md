@@ -6,7 +6,7 @@ Now, this is something exciting! This section shows how easy it is to create Sho
 
 1. In the virtual machine, open a new tab in your web browser and navigate to `https://portal.azure.com/` then sign in using the credentials provided for this lab.
 
-2. In the Azure portal, search for `rg-build25-@lab.LabInstance.Id`. Select the resource group from the search results.
+2. In the Azure portal, search for `rg-build25`. Select the resource group from the search results.
 
     ![Screenshot showing how to search for a resource group in Azure Portal](media/azure-portal-search-rg.png)
 
