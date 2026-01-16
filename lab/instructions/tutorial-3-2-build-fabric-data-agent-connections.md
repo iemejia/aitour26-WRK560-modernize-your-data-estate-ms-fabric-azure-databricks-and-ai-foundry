@@ -11,14 +11,14 @@ Let's continue stepping into the shoes of Reta, the Data Scientist to see how.
 
     ![Screenshot showing how to search for a resource group in Azure Portal](media/azure-portal-search-rg.png)
 
-2. In your resource group search for and select **prj-build@lab.LabInstance.Id** project then select the **Studio web URL** to launch Microsoft Foundry.
+2. In your resource group search for and select **prj-build-@lab.LabInstance.Id** project then select the **Studio web URL** to launch Microsoft Foundry.
 
     ![Screenshot showing how to select a project in Foundry](media/azure-ai-foundry-select-project.png)
 
     > [!NOTE]
     > Make sure to close any pop-ups that may appear.
 
-3. In the **prj-build@lab.LabInstance.Id** project, scroll down to the bottom and select **Management center** from the left navigation pane.
+3. In the **prj-build-@lab.LabInstance.Id** project, scroll down to the bottom and select **Management center** from the left navigation pane.
 
     ![Screenshot showing how to select Management center in Foundry](media/azure-ai-foundry-management-center.png)
 
