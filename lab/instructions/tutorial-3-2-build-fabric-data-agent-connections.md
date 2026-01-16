@@ -7,7 +7,7 @@ knowledge base.
 
 Let's continue stepping into the shoes of Reta, the Data Scientist to see how.
 
-1. Open a new tab in your VM browser and sign in to the Azure Portal by clicking on `https://portal.azure.com`, enter your credentials if prompted (on the resources section). In the Azure portal, search for `rg-build25-@lab.LabInstance.Id`. Select the resource group from the search results.
+1. Open a new tab in your VM browser and sign in to the Azure Portal by clicking on `https://portal.azure.com`, enter your credentials if prompted (on the resources section). In the Azure portal, search for `rg-build25`. Select the resource group from the search results.
 
     ![Screenshot showing how to search for a resource group in Azure Portal](media/azure-portal-search-rg.png)
 
