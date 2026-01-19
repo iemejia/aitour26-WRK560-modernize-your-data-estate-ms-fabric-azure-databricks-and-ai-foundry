@@ -19,7 +19,7 @@ In this exercise, you will act as the Data Engineer, Bryan, to transfer Zava's d
     > [!NOTE]
     > **Note**: Close any pop-up dialogs that appear on the screen.
 
-4. Select **Continue** and on the **Job Title** box enter `Data Expert`. On the **Business Phone Number** box enter `1230000849` then select **Get Started**.
+4. If you are asked to provide your personal information, select **Continue**. In the **Job Title** field, enter `Data Expert`. In the **Business Phone Number** field, enter `1230000849`. Finally, select **Get Started**.
 
     > [!NOTE]
     > **Note:** Wait for the Power BI workspace to load and *close* the top bar for a better view.
