@@ -40,7 +40,9 @@ In this exercise, you step into Reta's shoes, a data scientist at Zava, to build
 
     ![Screenshot showing how to interact with the Data Agent in Microsoft Fabric.](media/ask-data-agent.png)
 
-8. The data agent answered the question reasonably well based on the selected tables. However, the SQL query needs improvement: it orders products by order quantity (units sold) rather than by the revenue generated.
+    Review the steps taken by the agent to answer this question. Notice how Fabric Data Agent displays its reasoning process and the queries it generated to provide the answer.
+
+8. The **Fabric Data Agent** answered the question reasonably well based on the selected tables. However, the SQL query needs improvement: it orders products by order quantity (units sold) rather than by the revenue generated.
 
 9. To improve the query generation, provide the data agent with some additional guidance. Select **Agent Instructions**, or on the left pane open the Setup tab and click **Agent Instructions**. Enter the following instructions and then select the **Close (X)** button once done:
 
