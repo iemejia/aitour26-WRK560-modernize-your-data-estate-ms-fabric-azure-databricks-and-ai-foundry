@@ -6,15 +6,19 @@ In this task, you assist Reta to create a Microsoft Foundry agent that leverages
 
     ![Screenshot showing how to go back to the project in Foundry](media/azure-ai-foundry-go-to-project.png)
 
-2. In the left navigation pane, select **Agents** the select the **+ New agent** button. You may need to select first an Azure OpenAI resource.
+2. In the left navigation pane, select **Agents**. If prompted to choose an Azure OpenAI resource, select the one created in the previous step from the list.
+
+    ![Screenshot showing how to create a new agent in Foundry](media/azure-ai-foundry-agent-openai-resource.png)
+
+3. Select the **+ New agent** button.
 
     ![Screenshot showing how to create a new agent in Foundry](media/azure-ai-foundry-new-agent.png)
 
-3. Select the newly created agent, then select the **Try in playground** button on the right hand pane.
+4. Select the newly created agent, then select the **Try in playground** button on the right hand pane.
 
     ![Screenshot showing how to try the agent in playground in Foundry](media/azure-ai-foundry-try-in-playground.png)
 
-4. On the right hand pane, under **Setup** provide the following details:
+5. On the right hand pane, under **Setup** provide the following details:
 
     - **Agent name**: Enter `Zava Insights Agent`
     - **Instructions**: Enter `You are an AI assistant that helps Zava to gain insights from customer churn and sales data. Use the Fabric Data Agent to answer questions about customer behavior and sales trends. Provide clear and concise answers with relevant details.`
@@ -22,34 +26,34 @@ In this task, you assist Reta to create a Microsoft Foundry agent that leverages
 
     ![Screenshot showing how to set up the agent in Foundry](media/azure-ai-foundry-agent-setup.png)
 
-5. Now let's ground the agent with Fabric Data. On the right hand pane, next to **Knowledge (0)** select the **+ Add** button.
+6. Now let's ground the agent with Fabric Data. On the right hand pane, next to **Knowledge (0)** select the **+ Add** button.
 
     ![Screenshot showing how to add knowledge to the agent in Foundry](media/azure-ai-foundry-add-knowledge.png)
 
-6. In the **Add knowledge** dialog, select **Microsoft Fabric** from the list of knowledge types. Then select the **ZavaDataAgent** connection you created in the previous task. Select the **Connect** button to add the Fabric Data Agent as a knowledge source for the agent.
+7. In the **Add knowledge** dialog, select **Microsoft Fabric** from the list of knowledge types. Then select the **ZavaDataAgent** connection you created in the previous task. Select the **Connect** button to add the Fabric Data Agent as a knowledge source for the agent.
 
     ![Screenshot showing how to connect to Microsoft Fabric in Foundry](media/azure-ai-foundry-connect-fabric-knowledge.png)
 
-7. You will see the **ZavaDataAgent** listed under the **Knowledge** section on the right hand pane.
+8. You will see the **ZavaDataAgent** listed under the **Knowledge** section on the right hand pane.
 
     ![Screenshot showing the Fabric Data Agent added as a knowledge source in Foundry](media/azure-ai-foundry-fabric-knowledge-added.png)
 
-8. Now, let's take a step further and enable the agent to use tools. On the right hand pane, next to **Actions (0)** select the **+ Add** button.
+9. Now, let's take a step further and enable the agent to use tools. On the right hand pane, next to **Actions (0)** select the **+ Add** button.
 
     ![Screenshot showing how to add tools to the agent in Foundry](media/azure-ai-foundry-add-tools.png)
 
-9. In the **Add actions** dialog, select **Code Interpreter** from the list of action types.
+10. In the **Add actions** dialog, select **Code Interpreter** from the list of action types.
 
     ![Screenshot showing how to add Code Interpreter tool in Foundry](media/azure-ai-foundry-add-code-interpreter.png)
 
-10. In the **Add code interpreter action** dialog, select the **Save** button to add the Code Interpreter tool to the agent.
+11. In the **Add code interpreter action** dialog, select the **Save** button to add the Code Interpreter tool to the agent.
 
     ![Screenshot showing how to save Code Interpreter tool in Foundry](media/azure-ai-foundry-save-code-interpreter.png)
 
     > [!NOTE]
     > You can also add your own custom code by using the **Select local files** option.
 
-11. Enter the following question in the prompt box then select the **Send** button. The agent will use the Fabric Data Agent to fetch the relevant data and provide an answer to your question.
+12. Enter the following question in the prompt box then select the **Send** button. The agent will use the Fabric Data Agent to fetch the relevant data and provide an answer to your question.
 
     - `What are the top 5 selling products by total revenue?`
 
@@ -58,7 +62,7 @@ In this task, you assist Reta to create a Microsoft Foundry agent that leverages
     > [!IMPORTANT]
     > Your agent may take a few moments to respond as it fetches data from the Fabric Data Agent. If it does not respond with your expected answer, create a new thread or agent and try again.
 
-12. Let's help Reta to visualize the sales data. Enter the following question in the prompt box then select the **Send** button. The agent will use the Code Interpreter tool to generate a bar chart of the top 5 selling products by total revenue.
+13. Let's help Reta to visualize the sales data. Enter the following question in the prompt box then select the **Send** button. The agent will use the Code Interpreter tool to generate a bar chart of the top 5 selling products by total revenue.
 
     - `Can you show me a bar chart of the top 5 selling products by total revenue?`
 

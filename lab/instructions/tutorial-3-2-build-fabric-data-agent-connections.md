@@ -1,9 +1,7 @@
 ## Task 3.2: Establish Azure OpenAI and Fabric connections in Microsoft Foundry
 
 Zava integrated all of their data sources using Microsoft Fabric, including customer feedback, sales
-records, social media interactions, and encompassing internal company policy documents such as SOPs
-and research articles on customer behavior into Azure AI Search. This created a unified, searchable
-knowledge base.
+records, social media interactions. This created a unified, searchable knowledge base.
 
 Let's continue stepping into the shoes of Reta, the Data Scientist to see how.
 
@@ -26,11 +24,11 @@ Let's continue stepping into the shoes of Reta, the Data Scientist to see how.
 
     ![Screenshot showing how to add a new connection in Foundry](media/azure-ai-foundry-new-connection.png)
 
-5. In the **New connection** pane, select **Azure OpenAI** from the list of connection types. You will find an Azure OpenAI resource with *gpt-4o* model already deployed. Select the **Add connection** button to create a new connection.
+5. In the **New connection** pane, select **Azure OpenAI** from the list of connection types. You will find an Azure OpenAI resource with the *gpt-4o* already deployed. Click **Add connection** button to create a new connection (this model will serve as the base LLM for the Foundry agent). Press **Close**.
 
     ![Screenshot showing how to select Azure OpenAI in Foundry](media/azure-ai-foundry-select-azure-openai.png)
 
-6. In the **New connection** dialog, select **Microsoft Fabric** from the list of connection types under **Agent Knowledge Tools**. Provide the following details to connect to the Fabric Data Agent you created in the previous task:
+6. Now, create now a connection to the *Fabric Data Agent*. In the **New connection** dialog, select **Microsoft Fabric** from the list of connection types under **Agent Knowledge Tools**. Enter the required details to connect to the Fabric Data Agent you created in the previous task.
 
     - **workspace-id**: Paste the workspace ID you copied from Fabric Data Agent URL. The workspace ID is the alphanumeric string after **/workspaces/<workspace-id>/** in the URL.
     - **artifact-id**: Paste the artifact ID you copied from Fabric Data Agent URL. The artifact ID is the alphanumeric string after **/dataagents/<artifact-id>/** in the URL.
@@ -40,7 +38,10 @@ Let's continue stepping into the shoes of Reta, the Data Scientist to see how.
 
     ![Screenshot showing how to connect to Microsoft Fabric in Foundry](media/azure-ai-foundry-connect-fabric.png)
 
-7. Once the Azure AI Search services are connected, select **Close**. You will see both connections listed under the **Connected resources** tab.
+    > [!NOTE]
+    > If you encounter connection issues, check that you haven’t accidentally copied a '/' symbol. You can verify this by selecting the **is secret** checkbox.
+
+7. Both the Azure OpenAI *gpt-4o* model and the *Fabric Data Agent* are now connected. We can proceed to create a Foundry agent that uses them.
 
 ### Next Step
 

@@ -39,34 +39,31 @@ Now, this is something exciting! This section shows how easy it is to create Sho
 
 5. On the pop-up window, select **New connection**.
 
-6. In the screen below, we need to enter the connection details for the **ADLS Gen2** shortcut.
+6. In the screen below, we need to enter the connection details for the **ADLS Gen2** shortcut. Enter the following connection details:
 
-    ![Screenshot showing the connection details for the ADLS Gen2 shortcut.](media/adls-gen2-connection.png)
+    - **URL**: `https://stbuild@lab.LabInstance.Id.dfs.core.windows.net/`
+    - **Authentication Kind**: Select **Account Key**
+    - **Account Key**: Paste the copied **Key1** value from the previous section.
+    - Then select **Next**.
 
-7. Enter the following connection details:
-   - **URL**: `https://stbuild@lab.LabInstance.Id.dfs.core.windows.net/`
-   - **Authentication Kind**: Select **Account Key**
-   - **Account Key**: Paste the copied **Key1** value from the previous section.
     > [!NOTE]
     > Your key might be replaced as you are using the `icon` to copy other values. Please make sure to copy it again if needed.
 
-8. Then select **Next**.
+    ![Screenshot showing filled in connection details for the ADLS Gen2 shortcut.](media/adls-gen2-connection.png)
 
-    ![Screenshot showing filled in connection details for the ADLS Gen2 shortcut.](media/adls-gen2-connection-filled.png)
-
-9. Select the **litwaredata** checkbox and then click on the **Next** button.
+7. Select the **litwaredata** checkbox and then click on the **Next** button.
 
     ![Screenshot showing the selection of data and litwaredata checkboxes.](media/litwaredata-checkboxes.png)
 
-10. Since the data we’re importing is not in Delta format, Fabric prompts us to transform it. We’ll skip this step for now to manually test other Fabric features. Select **Skip**.
+8. Since the data we’re importing is not in Delta format, Fabric prompts us to transform it. We’ll skip this step for now to manually test other Fabric features. Select **Skip**.
 
     ![Screenshot showing the creation of the ADLS Gen2 shortcut.](media/create-new-shortcut-transform.png)
 
-11. Click on the **Create** button.
+9. Click on the **Create** button.
 
     ![Screenshot showing the creation of the ADLS Gen2 shortcut.](media/adls-gen2-creation.png)
 
-12. And there you go! Your shortcut is now ready! Click (do not expand) on the newly created shortcut named **litwaredata**.
+10. And there you go! Your shortcut is now ready! Click (do not expand) on the newly created shortcut named **litwaredata**.
 
     ![Screenshot showing the newly created shortcut named litwaredata.](media/new-shortcut-created.png)
 
