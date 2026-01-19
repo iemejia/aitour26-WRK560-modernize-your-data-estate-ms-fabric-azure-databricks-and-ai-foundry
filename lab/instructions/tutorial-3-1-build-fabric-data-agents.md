@@ -44,7 +44,7 @@ In this exercise, you step into Reta's shoes, a data scientist at Zava, to build
 
 9. To improve the query generation, provide the data agent with some additional guidance. Select **Agent Instructions**, or on the left pane open the Setup tab and click **Agent Instructions**. Enter the following instructions and then select the **Close (X)** button once done:
 
-    - `Whenever I ask about "the most sold" products or items, the metric of interest is total sales revenue and not order quantity. The primary table to use is FactInternetSales. Only use FactResellerSales if explicitly asked about resales or when asked about total sales. Whenever I ask about "revenue from leaving" customers, the primary table to use is the CustomerChurdata__tbl and suggest one actionable retention strategy.`
+    - `Whenever I ask about "the most sold" products or items, the metric of interest is total sales revenue and not order quantity. The primary table to use is FactInternetSales. Only use FactResellerSales if explicitly asked about resales or when asked about total sales. Whenever I ask about "revenue from leaving" customers, the primary table to use is the customerchurndata and suggest one actionable retention strategy.`
 
     ![Screenshot showing how to provide AI instructions to the Data Agent in Microsoft Fabric.](media/ai-instructions-data-agent.png)
 
