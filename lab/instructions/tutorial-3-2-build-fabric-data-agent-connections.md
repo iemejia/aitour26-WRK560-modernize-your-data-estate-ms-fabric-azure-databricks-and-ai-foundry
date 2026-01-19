@@ -26,14 +26,14 @@ Let's continue stepping into the shoes of Reta, the Data Scientist to see how.
 
     ![Screenshot showing how to add a new connection in Foundry](media/azure-ai-foundry-new-connection.png)
 
-5. In the **New connection** pane, select **Azure OpenAI** from the list of connection types. You will find an Azure OpenAI resource with *gpt-4o* and *text-embedding-ada-002* models already deployed. Select the **Add connection** button to create a new connection.
+5. In the **New connection** pane, select **Azure OpenAI** from the list of connection types. You will find an Azure OpenAI resource with *gpt-4o* model already deployed. Select the **Add connection** button to create a new connection.
 
     ![Screenshot showing how to select Azure OpenAI in Foundry](media/azure-ai-foundry-select-azure-openai.png)
 
 6. In the **New connection** dialog, select **Microsoft Fabric** from the list of connection types under **Agent Knowledge Tools**. Provide the following details to connect to the Fabric Data Agent you created in the previous task:
 
     - **workspace-id**: Paste the workspace ID you copied from Fabric Data Agent URL. The workspace ID is the alphanumeric string after **/workspaces/<workspace-id>/** in the URL.
-    - **artifact-id**: Paste the artifact ID you copied from Fabric Data Agent URL. The artifact ID is the alphanumeric string after **/aiskills/<artifact-id>/** in the URL.
+    - **artifact-id**: Paste the artifact ID you copied from Fabric Data Agent URL. The artifact ID is the alphanumeric string after **/dataagents/<artifact-id>/** in the URL.
     - **Connection name**: Enter `ZavaDataAgent`
 
     Select the **Add connection** button to create a new connection.
